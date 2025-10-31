@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {name:"مذكرةالشرح", url:"#"},
                     {name:"العرض التقديمي",url:"#"},]
                  },
-                { name: 'اختبار المحاضرة', url: 'https://youtu.be/SwDWNk4g9E8?si=67hyQN-vHwYWzCZ3',isTest:true },
+                { name: 'اختبار المحاضرة', url: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__maKqChUOTFVWEtLVVhKTklJTUVZVFBVU1lTRlJMNy4u',isTest:true },
             ]
         },
         // END 1
@@ -231,4 +231,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // تحديث شريط التقدم عند تحميل الصفحة
     updateProgressBar();
+
 });
