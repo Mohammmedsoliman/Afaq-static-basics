@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'مصادر الدراسه',
                      subtasks:[
                     {name:"مذكرةالشرح", url:"#"},
-                    {name:"العرض التقديمي",url:"#"},]
+                    {name:"العرض التقديمي",url:"https://gamma.app/docs/-831vq0bdjbp0gx1?mode=present#card-vx97r0n1aionv0q"},]
                  },
                 { name: 'اختبار المحاضرة', url: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__maKqChUOTFVWEtLVVhKTklJTUVZVFBVU1lTRlJMNy4u',isTest:true },
             ]
@@ -233,3 +233,4 @@ document.addEventListener('DOMContentLoaded', () => {
     updateProgressBar();
 
 });
+
