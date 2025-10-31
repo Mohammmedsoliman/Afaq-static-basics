@@ -1,0 +1,230 @@
+/* style.css */
+
+/* إعادة تعيين الأنماط الافتراضية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* تغيير الخط إلى Cairo */
+    font-family: 'Cairo', sans-serif; 
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    direction: rtl; /* يدعم اللغة العربية */
+    text-align: right;
+}
+
+header {
+    background-color: #1a3050;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.course-container {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.section-header {
+    background-color: #e9ecef;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.section-header h2 {
+    font-size: 1.5rem;
+}
+
+.lessons-list {
+    display: none; /* يتم إخفاء الدروس افتراضيًا */
+    padding: 1rem;
+}
+
+.lessons-list.active {
+    display: block; /* يتم عرضها عند إضافة الكلاس 'active' */
+}
+
+.lesson-item {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.lesson-item:last-child {
+    border-bottom: none;
+}
+
+.lesson-item a {
+    text-decoration: none;
+    color: #004aad;
+    font-weight: bold;
+    display: block;
+    transition: color 0.3s;
+}
+
+.lesson-item a:hover {
+    color: #004aad;
+}
+img{
+    width: 220px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+/* style.css */
+/* ... الكود السابق ... */
+
+.lesson-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    transition: color 0.3s;
+}
+
+.lesson-item a:hover {
+    color: #0056b3;
+}
+
+/* نمط جديد لدروس الاختبارات */
+.test-lesson a {
+    color: #dc3545; /* لون أحمر للاختبارات */
+    font-weight: bold;
+}
+
+/* لضمان أن اللون لا يتغير عند المرور بالماوس */
+.test-lesson a:hover {
+    color: #c82333; 
+}
+/* style.css */
+/* ... الكود السابق ... */
+
+/* نمط جديد لدروس الاختبارات */
+.test-lesson a {
+    color: #dc3545; /* لون أحمر للاختبارات */
+    font-weight: bold;
+}
+
+/* لضمان أن اللون لا يتغير عند المرور بالماوس */
+.test-lesson a:hover {
+    color: #c82333; 
+}
+
+/* نمط الدروس المكتملة */
+.completed a {
+    color: #28a745;
+    text-decoration: line-through; /* لون أخضر للدروس المكتملة */
+}
+
+/* لضمان أن اللون لا يتغير عند المرور بالماوس */
+.completed a:hover {
+    color: #218838;
+}
+/* style.css */
+/* ... الكود السابق ... */
+
+/* نمط جديد لشريط التقدم */
+.progress-bar-container {
+    padding: 1rem;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.progress-bar-wrapper {
+    background-color: #e9ecef;
+    height: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #28a745; /* لون أخضر للتقدم */
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out; /* حركة سلسة عند تحديث الشريط */
+}
+
+.progress-percentage {
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+    display: block;
+}
+/* style.css */
+/* ... الكود السابق ... */
+
+/* نمط جديد لدروس الاختبارات */
+.test-lesson a,
+.test-lesson .subtask-header h3 {
+    color: #dc3545; /* لون أحمر للاختبارات */
+    font-weight: bold;
+}
+
+/* لضمان أن اللون لا يتغير عند المرور بالماوس */
+.test-lesson a:hover {
+    color: #c82333; 
+}
+
+/* نمط الدروس المكتملة */
+.completed a,
+.completed .subtask-header h3 {
+    color: #28a745; /* لون أخضر للدروس المكتملة */
+}
+
+/* لضمان أن اللون لا يتغير عند المرور بالماوس */
+.completed a:hover {
+    color: #218838;
+}
+
+/* أنماط المهام الفرعية */
+.subtask-header {
+    background-color: #f8f9fa;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e9ecef;
+    margin-right: -1rem; /* لتبدأ من الحافة */
+}
+.subtask-list {
+    /* تم إزالة display: none; من هنا */
+    padding-right: 2rem; /* مسافة بادئة للتمييز */
+}
+
+/* نمط جديد لإخفاء القائمة عند الضغط عليها */
+.subtask-list.collapsed {
+    display: none;
+}
+
+.subtask-list.active {
+    display: block;
+}
+
+.subtask-list .lesson-item {
+    border-bottom: 1px solid #f0f0f0;
+}
+/* ... باقي الكود ... */
+/* ... باقي الكود ... */
