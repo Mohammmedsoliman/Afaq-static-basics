@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'مشاهدة المحاضرة', url: 'https://youtu.be/SwDWNk4g9E8?si=67hyQN-vHwYWzCZ3',isTest:false },
                 { name: 'مصادر الدراسه',
                      subtasks:[
-                    {name:"مذكرةالشرح", url:"#"},
+                    {name:"مذكرةالشرح", url:"https://drive.google.com/file/d/11xyFzY9-IcJSvmVADCGGEfgUWppHPt_m/view?usp=sharing"},
                     {name:"العرض التقديمي",url:"https://gamma.app/docs/-831vq0bdjbp0gx1?mode=present#card-vx97r0n1aionv0q"},]
                  },
                 { name: 'اختبار المحاضرة', url: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__maKqChUOTFVWEtLVVhKTklJTUVZVFBVU1lTRlJMNy4u',isTest:true },
@@ -29,13 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'Session 2',
             lessons: [
-                 { name: 'مشاهدة المحاضرة', url: 'https://youtu.be/SwDWNk4g9E8?si=67hyQN-vHwYWzCZ3',isTest:false },
+                 { name: 'مشاهدة المحاضرة', url: 'https://youtu.be/YHAegpy7xds?si=hq-BfrviGu_vnoQF',isTest:false },
                 { name: 'مصادر الدراسه',
                      subtasks:[
-                    {name:"مذكرةالشرح", url:"#"},
-                    {name:"العرض التقديمي",url:"#"},]
+                    {name:"مذكرةالشرح", url:"https://drive.google.com/file/d/1Ed5PqYVmdWYZtu6NubeXauqwv4YxzLLQ/view?usp=sharing"},
+                    {name:"العرض التقديمي",url:"https://drive.google.com/file/d/1cprRy4MzA-4G8cmDuR513KMzX62ea49h/view?usp=sharing"},]
                  },
-                { name: 'اختبار المحاضرة', url: 'https://youtu.be/SwDWNk4g9E8?si=67hyQN-vHwYWzCZ3',isTest:true },
+                { name: 'اختبار المحاضرة', url: 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__maKqChUN0lHMlM5WDA1QlVEOEJZWENZQUtHRVIxVC4u',isTest:true },
             ]
         },
         {
@@ -233,4 +233,5 @@ document.addEventListener('DOMContentLoaded', () => {
     updateProgressBar();
 
 });
+
 
